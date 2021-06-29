@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import 'bulma/css/bulma.css';
+
 
 
 class FoodBox extends Component {
@@ -12,7 +12,7 @@ class FoodBox extends Component {
         <article className="media">
           <div className="media-left">
             <figure className="image is-64x64">
-              <img src={this.props.image}/>
+              <img src={this.props.image} alt='pic'/>
             </figure>
           </div>
           <div className="media-content">
